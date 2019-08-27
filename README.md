@@ -21,26 +21,27 @@ That being said, some questions about the fundamentals remain in my mind. I'm sp
 
 Similarly, I not sure where the intuition arose of the squared length of a vector in n-dimensions being the sum of the values squared. I can see the extrapolation from pythagorean theorum to n-dimensions, but once again, I feel like I'm missing something in my understanding that allowed someone to make that jump and feel justified in doing it. Perhaps it's because I can't visualize greater than three dimensions, and that's all there is to it. 
 
-There are few more things like the proof for K-means clustering, and just generally the awe that people actually invented these tools. I guess I just have to think more about it and talk with people. 
+There are few more things like the proof for K-means clustering, and just how exactly SVMs were conceived, and just generally the awe that people actually invented these tools at all. In a nutshell, I should dive deeper into the minds of the inventors of these algorithms.
 
-Thinking back on my original motivation for doing machine learning, I have to ask myself to what extent I have made progress toward that goal. The intention for this project was to learn what exactly ML can and can't do, and there is definitely some clarity there. ML can do a lot. It can classify and regress with complex decision boundaries, and it can group unstructured data, and when I saw the results from the exercises, I was impressed. 
+-- 
 
-In some ways, it's quite simple. Every single ML algorithm is just minimizing of the sum of the errors using gradient descent or some optimized version thereof to modified parameters of the hypothesis function. The hypothesis function is a cleverly modified or transformed linear equation, and that's really all there is to it. There is a process for examining whether the algorithm has correctly fit the data (is it biased or highly variant?), and whether the performance adequate (does it have a good F1 score).  We learn how to performa these evaluations, as well as what to do about it, whether that meant changing the parameters of the algorithm, or acquiring more data, or modifying the dataset.
+So, thinking back on my original motivation for doing machine learning, I have to ask myself to what extent I have made progress. The intention for this project was to learn exactly what ML can and can't do, and there is definitely some clarity there. 
 
-But it is not that simple, and this is because modeling the real world is complicated. The real world needs to be modeled using numbers, and the data needs to be collected, and it needs to be normalized (cleaned). This task is so hard the that the ML algorithsm are only being applied to very concrete problems. Lets take a look at the examples and I'll explain what I mean:
+In some ways, it's quite simple. Every single ML algorithm is simply minimizing of the sum of the errors between hypothesis and actual by using gradient descent or some optimized version thereof to modified parameters of the hypothesis function. The hypothesis function is a linear equation with a possible transformation, and that's really all there is to it. If the algorithm fails, there is a process for examining whether the algorithm has correctly fit the data (is it biased or highly variant?), and whether the performance is adequate (does it have a good F1 score?).  We learn how to perform these evaluations, as well as what to do about it, whether that means changing the parameters of the algorithm, or acquiring more data, or modifying the dataset.
 
-These were the projects:
+But in reality, ML is not that simple because modeling the real world is complicated. The real world needs to be described with numbers, and the data needs to be collected, and it needs to be normalized (cleaned). This task is so hard that the ML algorithms are only being applied to very concrete problems. Lets take a look at the examples to understand what I mean:
+
 1. Housing prices (linear regression).
-2. Decision bounday for college acceptance base on two tests (logistic).
-3. 0-9 number classification, and streering wheel self-driving care  (NN).
+2. College acceptance base on two tests (logistic reg.).
+3. 0-9 number classification, and streering wheel self-driving care (NN and one-versus-all logistic regression).
 4. Image compression (of the color pallete) (K-means and PCA)
 5. Anomaly system for computers base on CPU usage and traffic, and airplane motor quality.
-6. Recommender system for movies, 100 features.
+6. Recommender system for movies with 100 features.
 7. Image OCR walkthrough (NN, logistic regression).
 8. Spam Classification (SVM).
-9. Face data analysis, PCA (the most impressive in my opinion).
+9. Face data analysis, PCA 
 
-This is what we worked on, and you'll see that the examples are only problems that can be easily modeled with numbers and which there is a strong correlation with the data. Housing prices are already numbers, and college acceptance prediction already has numbers with a visible correlation. Number classification is concrete and requires extremely clean data. Image compression used a easily groupable parameter: the color pallate (RGB). The anomaly detection assumes the data is Gaussian. Movie recommendation is discreet (5 levels) and already representable in numbers. Spam is also easily representable with numbers (count the words). This is all to say that the examples were easily representable in numbers - how could you accurately represent difficult ethical problems with numbers, and come up with a dataset that people agree upon? I certainly am not sure how to do that at this time.
+This is what we worked on, and you'll see that the examples are only problems that can be easily modeled with numbers and for which there is a strong correlation predictable or visible. Housing prices are already numbers, and college acceptance prediction already has numbers with a visible correlation. Number classification is concrete and requires extremely clean data. Image compression used a easily groupable parameter: the color pallate (RGB). The anomaly detection assumes the data is Gaussian. Movie recommendation is discreet (5 levels) and already representable in numbers. Spam is also easily representable with numbers (count the words). This is all to say that the examples were easily representable in numbers - how could you accurately represent difficult ethical problems with numbers, and come up with a dataset that people agree upon? I certainly am not sure how to do that at this time.
 
 That is not to say that the solutions to these problems aren't creative or amazing. I'm truly amazed that people came up with this, and I don't claim to understand all of the algorithms completely, or how they work. In fact it's amazing that people came up with the algorithsm, and that they figured how to represent the data in such a way that the data actually worked with the algorithsm. That being said, it's important to say that I don't believe that ML algorithms think in any way, and none of these examples are matters of life and death. If ML is doing any kind of thinking, it's doing the kind of thinking that labels and groups concrete entities, and nothing more than that. 
 
