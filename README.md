@@ -9,26 +9,26 @@ There are so many more things that I want to build: Cryptography fundamentals, Q
 
 The last thing that I wanted to do was put down the complete list of topics provide the key strategies to solving each one, with the optimal time complexity, for reference to those who try to finish it moving forward from here on out:
 
-0: "Arrays": Each of these has a trick, usually dependent on some constraint on what the array is holding.
-1: "Linked Lists": being able to think visually here is helpful.
-2: "Hash Tables": this was the easiest one because there aren't a lot of edge cases.
-3: "Trees: Basic"
-4: "Heaps, Stacks, Queues": draw pictures and come up lots of test cases.
-5: "Graphs": for the next three, each of these problems is usually a particular kind of graph problem (map coloring, path finding, cycle finding), described as a word problem. You have to figure out which particular kind of problem it is.
-6: "Trees: Advanced": same here.
-7: "Depth-First Search & Breadth-First Search", get comfortable with writing the dfs and bfs as a proof of concepts, then each problem here will require one or the other. nb. some can probably be solved with both, but one of them will be easiser to implement than the other.
-8: "Backtracking": dfs mainly.
-9: "Sorting": read up the sorting method in question and do it out on the whiteboard.
-10: "Dynamic Programming: Basic": it's either tabulation or memoization.
-11: "Dynamic Programming: Advanced". same here. The last one by Uber is a five element-long repeated pattern, wtf. 
-12: "Common Techniques: Basic": Read up on the info section to get the strategies.
-13: "Strings": this is the hardest section for m: there are a lot of clever techniques, look in the comments. 
-14: "Bits": these are relatively easy for coding but the algorith itself can be tricky.
-15: "Common Techniques: Advanced": read up on all the pointers.
-16: "RegEx": google
-17: "Number Theory": don't overthink these.
-18: "Counting": sorting.
-19: "Geometry": draw pictures.
+0. "Arrays": Each of these has a trick, usually dependent on some constraint on what the array is holding.
+1. "Linked Lists": being able to think visually here is helpful.
+2. "Hash Tables": this was the easiest one because there aren't a lot of edge cases.
+3. "Trees: Basic"
+4. "Heaps, Stacks, Queues": draw pictures and come up lots of test cases.
+5. "Graphs": for the next three, each of these problems is usually a particular kind of graph problem (map coloring, path finding, cycle finding), described as a word problem. You have to figure out which particular kind of problem it is.
+6. "Trees: Advanced": same here.
+7. "Depth-First Search & Breadth-First Search", get comfortable with writing the dfs and bfs as a proof of concepts, then each problem here will require one or the other. nb. some can probably be solved with both, but one of them will be easiser to implement than the other.
+8. "Backtracking": dfs mainly.
+9. "Sorting": read up the sorting method in question and do it out on the whiteboard.
+10. "Dynamic Programming: Basic": it's either tabulation or memoization.
+11. "Dynamic Programming: Advanced". same here. The last one by Uber is a five element-long repeated pattern, wtf. 
+12. "Common Techniques: Basic": Read up on the info section to get the strategies.
+13. "Strings": this is the hardest section for m: there are a lot of clever techniques, look in the comments. 
+14. "Bits": these are relatively easy for coding but the algorith itself can be tricky.
+15. "Common Techniques: Advanced": read up on all the pointers.
+16. "RegEx": google
+17. "Number Theory": don't overthink these.
+18. "Counting": sorting.
+19. "Geometry": draw pictures.
 
 If I learned anything from doing these algorithsm, its to expect the unexpected when it comes to test cases and edge cases, and to take your time to really understanding the problem deeply. 
 
