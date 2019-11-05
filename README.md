@@ -1,6 +1,37 @@
 # machinelearningstudies
 Journal of my Studies in Machine Learning, Fall 2019
 
+## November 5th 
+
+I'd like to make some comments on my studies since completing the Machine Learning course by andrew ng. Since then, I have completed the 110 DS/ALGO interview practice on Coursera, as well as projects 1-10 on NAND2Tetris, with the goal of the first being to finish a course that I had started, and the second being to remove the magic from how a computer works under the hood, and how high level-languages compile down to low-level languages. Regarding Nand2Tetris, I really should finish the last two projects, but with the magic behind computers now being sufficiently removed, and the task of writing string parsers to be truly arduous, I can't bring myself to write the final step (Parse-tree to VM code), as I feel that I am simply repeating myself again and again, and would rather work on a a real compiler in production today, optimize it and do something with it.  But, then again, I always learn something new when I tackle the challenge, even if it is the act of motivating myself. Maybe I need to refactor the parsing code first...but no matter. Up to this point, the works has opened my mind to such a degree that I finally feel like I understand the machine that I'm working with, and that I finally understand the basis for the technologies I've read about (ML, low-level computer, lots of data structures and algorithms). On top of that, I know that my knowledge has increased substantially because I am now aware of just truly how little I know about computer science and all the subfields that I studied (ML, DS/ALGO, computer architecture).  If I felt like I was now more knowledgable than three months ago, I would have been wasting my time, but because I feel even less knowledgable, I know that my work was fruitful. '
+
+There are so many more things that I want to build: Cryptography fundamentals, Quantum Computer Programming, Suffix Trees in Linear Time, contribute to TOR in some way. 
+
+The last thing that I wanted to do was put down the complete list of topics provide the key strategies to solving each one, with the optimal time complexity, for reference to those who try to finish it moving forward from here on out:
+
+0: "Arrays": Each of these has a trick, usually dependent on some constraint on what the array is holding.
+1: "Linked Lists": being able to think visually here is helpful.
+2: "Hash Tables": this was the easiest one because there aren't a lot of edge cases.
+3: "Trees: Basic"
+4: "Heaps, Stacks, Queues": draw pictures and come up lots of test cases.
+5: "Graphs": for the next three, each of these problems is usually a particular kind of graph problem (map coloring, path finding, cycle finding), described as a word problem. You have to figure out which particular kind of problem it is.
+6: "Trees: Advanced": same here.
+7: "Depth-First Search & Breadth-First Search", get comfortable with writing the dfs and bfs as a proof of concepts, then each problem here will require one or the other. nb. some can probably be solved with both, but one of them will be easiser to implement than the other.
+8: "Backtracking": dfs mainly.
+9: "Sorting": read up the sorting method in question and do it out on the whiteboard.
+10: "Dynamic Programming: Basic": it's either tabulation or memoization.
+11: "Dynamic Programming: Advanced". same here. The last one by Uber is a five element-long repeated pattern, wtf. 
+12: "Common Techniques: Basic": Read up on the info section to get the strategies.
+13: "Strings": this is the hardest section for m: there are a lot of clever techniques, look in the comments. 
+14: "Bits": these are relatively easy for coding but the algorith itself can be tricky.
+15: "Common Techniques: Advanced": read up on all the pointers.
+16: "RegEx": google
+17: "Number Theory": don't overthink these.
+18: "Counting": sorting.
+19: "Geometry": draw pictures.
+
+If I learned anything from doing these algorithsm, its to expect the unexpected when it comes to test cases and edge cases, and to take your time to really understanding the problem deeply. 
+
 ## August 27, 2019
 
 I have made two academic achievements thus far, the first is the completion of Andrew Ng's Machine Learning Coursework, and the second is the completion of the OffSec OSCE Hacking Challenge. The following are my reflections thereon. 
