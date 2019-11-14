@@ -1,7 +1,7 @@
 # machinelearningstudies
 Journal of my Studies in my Fall Sabbatical, Fall 2019
 
-## November 5th 
+## November 14th 
 
 Below are some comments on my studies since completing the Machine Learning course by andrew ng. Since that time, which was about two months ago, I have completed the 110 DS/ALGO interview practice problems on Coursera (view here: https://app.codesignal.com/profile/adrian_j7/badges), as well as projects 1-10 on NAND2Tetris, with the goal of the first being to finish a course that I had started at least two years ago, and the second being to remove the magic from the computer: how it works under the hood, and how high level-languages compile down to low-level languages. I know that my knowledge has increased substantially because I am now aware of just truly how little I know about computer science and all the subfields that I studied (ML, DS/ALGO, computer architecture).  If I felt like I was more knowledgable than three months ago, I would have been wasting my time, but because I feel even less knowledgable, I know that my work was fruitful. 
 
